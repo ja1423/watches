@@ -137,6 +137,101 @@ header .dropdown:hover svg {
   gap:100px
 }
 
+.rows h1{
+  font-size: 40px;
+  color: #3858d6;
+  font-weight: 500;
+}
 
 
+.jd{
+  text-align: center;
+  padding: 20px 20px;
+  margin: 80px ;
+}
 
+
+.jadval h1{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.jadval p{
+  font-size: 20px;
+  color: #1b2b65;
+  font-weight: 500;
+}
+
+
+.table{
+  margin: 60px;
+  width: 100%;
+  gap: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.bio{
+  text-align: center;
+  padding: 20px 20px;
+  margin: 80px ;
+}
+
+.head h1{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.head p{
+  font-size: 20px;
+  color: #1b2b65;
+  font-weight: 500;
+}
+
+
+.people{
+ display: flex;
+ gap:50px;
+ margin: 50px;
+}
+
+
+.hamza{
+  margin: auto;
+  display: flex;
+  text-align:left;
+  gap: 30px;
+}
+.hamza h1{
+   
+  font-size: 30px;
+  font-weight: 500;
+
+}
+
+.hamza a{
+text-decoration: none;
+  color: #05060a;
+  font-weight: 500;
+  margin:10px
+}
+.hafiz{
+  margin: auto;
+  display: flex;
+  text-align:left;
+  gap: 30px;
+}
+
+.hafiz h1{
+   
+  font-size: 30px;
+  font-weight: 500;
+
+}
+
+.hafiz a{
+  text-decoration: none;
+  color: #05060a;
+  font-weight: 500;
+  margin:10px
+}
