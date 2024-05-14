@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  font-family: "Poppins";
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(#383638, #0b0b0b);
+}
+header .header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .menu {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+header .dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.dropdown_menu {
+  position: absolute;
+  background-color: yellow;
+  width: 100px;
+  padding: 10px;
+  top: 40px;
+  display: none;
+}
+header .menu a {
+  color: #8b8e99;
+  font-weight: 500px;
+  padding: 10px 0;
+  display: block;
+}
+/* header .dropdown:hover ~ .dropdown_menu {
+  display: block;
+} */
+header .dropdown:hover svg {
+  transform: rotate(180deg);
+}
+.header_btns button {
+  position: relative;
+  background: none;
+  border: none;
+}
+.header_btns button .yumaloqcha {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: #3858d6;
+  color: white;
+  padding-top: 1px;
+  border-radius: 100%;
+  font-size: 10px;
+  font-weight: 500;
+  left: 10px;
+  top: -4px;
+}
+/* ------------------------------------------------------- */
+
+.discover_section {
+  padding: 142px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+.discover_section h1 {
+  color: white;
+  font-size: 64px;
+}
+.discover_section p {
+  color: #8b8e99;
+  font-weight: 500;
+  margin-bottom: 47px;
+}
+.discover_section input {
+  width: 443px;
+  padding: 20px 50px;
+  border-radius: 15px;
+}
+.discover_section input:focus {
+  outline: none;
+}
+.discover_section button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #3858d6;
+  padding: 10px 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.discover_section form {
+  position: relative;
+}
+.discover_section svg {
+  position: absolute;
+  top: 23px;
+  left: 20px;
+  color: #3858d6;
+}
+
+.rows{
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 80px ;
+  border-radius: 95px;
+  text-align: center;
+  gap:100px
+}
+
+
+
+
